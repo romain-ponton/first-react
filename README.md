@@ -1,16 +1,181 @@
-# React + Vite
+# 🚀 React + Vite Starter --- Clean Architecture & UI Enhancement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet starter moderne basé sur React + Vite, conçu pour :
 
-Currently, two official plugins are available:
+-   ⚡ Performance optimale
+-   🧱 Architecture scalable
+-   🎨 Amélioration UI progressive
+-   📱 Responsive Design
+-   🧩 Composants réutilisables
+-   🧼 Code maintenable
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------------------
 
-## React Compiler
+## 🛠 Stack Technique
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   React 18+
+-   Vite
+-   JavaScript / TypeScript
+-   CSS Modules / Tailwind (optionnel)
+-   ESLint
+-   Prettier (recommandé)
 
-## Expanding the ESLint configuration
+------------------------------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📦 Installation complète du projet
+
+## 1️⃣ Prérequis
+
+-   Node.js ≥ 18
+-   npm ≥ 9
+
+Vérifier :
+
+``` bash
+node -v
+npm -v
+```
+
+------------------------------------------------------------------------
+
+## 2️⃣ Création du projet
+
+### Avec npm
+
+``` bash
+npm create vite@latest mon-projet
+```
+
+Choisir : - Framework → React - Variant → JavaScript ou TypeScript
+
+------------------------------------------------------------------------
+
+### Alternative avec Yarn
+
+``` bash
+yarn create vite mon-projet
+```
+
+------------------------------------------------------------------------
+
+### Alternative avec PNPM
+
+``` bash
+pnpm create vite mon-projet
+```
+
+------------------------------------------------------------------------
+
+## 3️⃣ Installation des dépendances
+
+``` bash
+cd mon-projet
+npm install
+```
+
+------------------------------------------------------------------------
+
+## 4️⃣ Lancer le serveur de développement
+
+``` bash
+npm run dev
+```
+
+Accès local :
+
+http://localhost:5173
+
+------------------------------------------------------------------------
+
+# 📁 Structure recommandée
+
+    src/
+    │
+    ├── assets/           # Images, icônes
+    ├── components/       # UI réutilisable
+    ├── layouts/          # Layout global
+    ├── pages/            # Pages applicatives
+    ├── hooks/            # Custom hooks
+    ├── services/         # Appels API
+    ├── styles/           # Styles globaux
+    │
+    ├── App.jsx
+    └── main.jsx
+
+------------------------------------------------------------------------
+
+# 🎨 Amélioration Visuelle
+
+## 🎯 Objectifs UI
+
+-   Design cohérent
+-   Espacements harmonisés
+-   Hiérarchie typographique claire
+-   Responsive natif
+
+------------------------------------------------------------------------
+
+# 📜 Scripts Disponibles
+
+## Développement
+
+``` bash
+npm run dev
+```
+
+## Build production
+
+``` bash
+npm run build
+```
+
+## Preview build production
+
+``` bash
+npm run preview
+```
+
+## Lint du projet
+
+``` bash
+npm run lint
+```
+
+------------------------------------------------------------------------
+
+# 🚀 Déploiement
+
+## Build production
+
+``` bash
+npm run build
+```
+
+Le dossier généré :
+
+dist/
+
+------------------------------------------------------------------------
+
+## Déploiement possible sur :
+
+-   Vercel
+-   Netlify
+-   GitHub Pages
+
+------------------------------------------------------------------------
+
+# 🧠 Bonnes pratiques
+
+-   Composants petits et isolés
+-   Séparation logique / UI
+-   Utiliser les hooks proprement
+-   Architecture évolutive
+-   Convention de nommage claire
+-   Structure scalable dès le début
+
+------------------------------------------------------------------------
+
+# 📄 Licence
+
+MIT License
